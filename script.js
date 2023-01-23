@@ -1,7 +1,7 @@
 //your code here
 
 let heading3=document.createElement("h3");
-heading3.setAttribute("id",h);
+heading3.setAttribute("id","h");
 heading3.innerHTML="Please click on the identical tiles to verify that you are not a robot."
 document.body.prepend(heading3);
 
