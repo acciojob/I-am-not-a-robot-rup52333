@@ -98,14 +98,14 @@ let class1=selectedImages[0].className
 let class2=selectedImages[1].className
 if(class1==class2){
 
-p.innerHTML=<h3>"You are a human,Congratulations!"</h3>
+p.innerHTML="You are a human,Congratulations!"
 
 
 }
 else{
     
 
-p.innerHTML=<h3>"we can't verify you as a human.You selected the non-identical tiles."</h3>
+p.innerHTML="we can't verify you as a human.You selected the non-identical tiles."
 
 
 
