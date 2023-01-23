@@ -92,6 +92,7 @@ count=0;
 })
 verifyBtn.addEventListener("click",()=>{
     let p=document.createElement("p")
+    p.setAttribute("id",para);
     selectedImages=document.querySelectorAll(".selected")
 let class1=selectedImages[0].className
 let class2=selectedImages[1].className
